@@ -1,0 +1,392 @@
+@import iconmoon
+@import config
+@import animate
+@import magnific-popup
+
+
+// CUSTOM USER STYLES
+
+.head
+    width: 100%
+    height: 940px
+    background-image: url(../images/dest/header-bg.jpg)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    h1
+        text-align: center
+        text-transform: uppercase
+        color: $white
+        font-size: 28px
+        margin: 120px auto 0 auto
+        padding: 20px
+        animation-delay: 1s
+.overlay
+    width: 100%
+    height: 100%
+    background-color: $overlay
+.screens
+    display: flex
+    justify-content: center
+.screen
+    padding: 50px 30px 0 30px
+    font-weight: 700
+    &:nth-child(1)
+        animation-delay: 1s
+    &:nth-child(2)
+        animation-delay: 2s
+    &:nth-child(3)
+        animation-delay: 3s
+    &:nth-child(4)
+        animation-delay: 4s
+    &:hover
+        transition: 1s all
+        background-color: $tomato
+    a
+        color: $white
+        text-transform: uppercase
+        font-size: 14px
+        text-decoration: none
+.head_description
+    margin: 50px auto
+    text-align: center
+    color: $white
+    width: 50%
+    animation-delay: 2s
+.head_btn
+    width: 230px
+    height: 60px
+    background-color: transparent
+    border: 1px solid $white
+    color: $white
+    display: block
+    margin: 110px auto
+    animation-delay: 3s
+    &:hover
+        box-shadow: 0 0 10px $white
+        transition: .5s all
+.head_icon
+    padding: 0
+    margin: 0
+    list-style-type: none
+    display: flex
+    justify-content: center
+    color: $white
+    font-size: 36px
+    li
+        margin: 0 25px
+        width: 70px
+        height: 70px
+        text-align: center
+        line-height: 70px
+        border: 1px solid $white
+        border-radius: 100%
+        animation-delay: 2s
+    .icon-html5
+        &::before
+            content: '\f13b'
+    .icon-css3
+        &::before
+            content: '\f13c'
+    .icon-javascript
+        &::before
+            content: '\e901'
+            color: $white
+    .icon-jquery
+        &::before
+            content: '\e902'
+            color: $white
+    .icon-gulp
+        &::before
+            content: '\e900'
+            color: $white
+    .icon-sass
+        &::before
+            content: '\e903'
+            color: $white
+
+
+.works-gallery
+    background-image: url(../images/dest/gallery-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+h2
+    text-align: center
+    padding-top: 60px
+    font-size: 28px
+    text-transform: uppercase
+.works-gallery_wrapper
+    padding-bottom: 60px
+.works-gallery_tabs
+    padding: 0
+    display: flex
+    justify-content: center
+    list-style-type: none
+    text-transform: uppercase
+.works-gallery_tab
+    margin: 40px 20px
+    padding-bottom: 4px
+    cursor: pointer
+    font-weight: 700
+    border-bottom: 4px solid transparent
+.works-gallery_tab.active
+    color: $tomato
+    border-bottom: 4px solid $tomato
+    transition: all 1s ease
+.works-gallery_item
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+.works-gallery_slide
+    position: relative
+    width: 532px
+    height: 267px
+    border: 1px solid $icon-set
+    box-shadow: 0 0 10px $icon-set
+    margin: 10px auto
+    cursor: pointer
+.works-gallery_slide_img
+    img
+        width: 100%
+        height: 100%
+.works-gallery_slide_description
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    padding: 30px
+    text-align: center
+    background-color: lighten($overlay, 10%)
+    color: $white
+
+.works-gallery_slide_description
+    a
+        color: $white
+
+
+.about-me
+    background-image: url(../images/dest/about-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+    color: $white
+.light-title
+    color: $white
+.about-me_image
+    width: 250px
+    height: 250px
+    img
+        width: 100%
+        border-radius: 100%
+        height: 100%
+.about-me_title
+    font-size: 28px
+    margin-top: 30px
+    span
+        padding-left: 20px
+        font-size: 18px
+.about-mi_content
+    display: flex
+    justify-content: space-between
+    padding: 70px 0
+.description_overlay
+    padding: 20px 20px
+    background-color: $overlay
+    box-shadow: 0 0 20px $overlay
+.about-me_info
+    margin-right: 20px
+    width: 50%
+    address
+        font-size: 28px
+        margin-top: 20px
+        &::before
+            content: '\f041'
+            font-size: 38px
+            color: $tomato
+.about-me_description
+    margin-left: 20px
+    width: 50%
+.description_text
+    a
+        color: $white
+.about-me-sub_title
+    font-size: 28px
+    margin-top: 40px
+    text-align: center
+    font-weight: 700
+    text-transform: uppercase
+.about-me_items
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    width: 100%
+    list-style-type: none
+    margin: 0
+    padding: 90px 0
+.about-me_item
+    width: 32%
+    img
+        width: 100%
+
+.contacts
+    background-image: url(../images/dest/contact-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+.contacts_wrapper
+    padding: 60px 0
+.form_box-inner
+    width: 60%
+    display: flex
+    flex-wrap: wrap
+    .form_box-left
+        width: 50%
+        input
+            width: 90%
+            padding: 5px
+            margin: 20px auto
+            background-color: transparent
+            border: none
+            border-bottom: 2px solid $icon-set
+            text-align: center
+            color: $icon-set
+            font-size: 18px
+            display: block
+        label
+            width: 100%
+            text-align: center
+            font-size: 18px
+        select
+            background-color: transparent
+            width: 90%
+            height: 50px
+            padding: 10px
+            display: block
+            margin: 10px auto
+            color: $icon-set
+    .form_box-right
+        width: 50%
+        textarea
+            width: 90%
+            display: block
+            margin: 55px auto 20px auto
+            height: 156px
+            padding: 10px
+            border: 2px solid $icon-set
+            background-color: transparent
+            resize: none
+        .defolt_btn
+            display: block
+            margin: 30px auto
+            height: 50px
+            background-color: transparent
+            border: 1px solid $icon-set
+            color: $icon-set
+            font-size: 14px
+            text-transform: uppercase
+            font-weight: 700
+            padding: 10px
+            &:hover            
+                box-shadow: 0 0 10px $icon-set
+                
+form
+    background-color: rgba(255,255,255,.4)
+    padding: 50px 0
+    margin: 80px auto
+    display: flex
+    justify-content: space-between
+    position: relative
+    .form_img
+        width: 40%
+        position: absolute
+        right: -10px
+        top: -50px
+        img
+            width: 400px
+
+footer
+    background-image: url(../images/dest/footer-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+.footer_items
+    display: flex
+    justify-content: center
+    padding: 50px 0
+    border-bottom: 1px solid $icon-set  
+.footer_item
+    margin: 0 20px
+    width: 60px
+    height: 60px
+    text-align: center
+    border: 1px solid $white
+    border-radius: 100%
+    a
+        color: $white
+        font-size: 36px
+        text-decoration: none
+        line-height: 57px
+        &:hover
+            transition: all 1s
+            color: $icon-set
+.footer_info
+    padding: 30px 0
+    text-align: center
+    color: $icon-set
+    font-size: 14px
+
+
+.modal
+    background-color: rgba(255,255,255,.9)
+    width: 50%
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    textarea
+        color: $icon-set
+.popup-form_box
+    width: 100%
+.modal_close
+    position: absolute
+    top: 20px
+    right: 20px
+    color: $icon-set
+    font-weight: 700
+    font-size: 28px
+    cursor: pointer
+.overley-form
+    position: fixed
+    top: 0
+    width: 100%
+    height: 100%
+    display: none
+    form
+        margin: 0
+
+
+.covid-19
+    padding: 15px
+    text-align: center
+    a
+        color: tomato
+        span
+            font-weight: 700
+        img
+            margin: 0 20px 0 auto
+
+.pageup
+    display: none
+    position: fixed
+    bottom: 40px
+    right: 40px
+    width: 40px
+    height: 40px
+    img
+        width: 100%
+
+
+
+@import media

@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?95xnsn');
+  src:  url('../fonts/icomoon.eot?95xnsn#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?95xnsn') format('truetype'),
+    url('../fonts/icomoon.woff?95xnsn') format('woff'),
+    url('../fonts/icomoon.svg?95xnsn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-vk-with-circle:before {
+  content: "\e906";
+}
+.icon-vk-alternitive:before {
+  content: "\e907";
+}
+.icon-vk4:before {
+  content: "\e908";
+}
+.icon-vk1:before {
+  content: "\e904";
+}
+.icon-vk3:before {
+  content: "\e905";
+  color: #4680c2;
+}
+.icon-sass:before {
+  content: "\e903";
+  color: #c69;
+}
+.icon-gulp:before {
+  content: "\e900";
+  color: #da4648;
+}
+.icon-javascript:before {
+  content: "\e901";
+  color: #f7df1e;
+}
+.icon-jquery:before {
+  content: "\e902";
+  color: #0769ad;
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-check:before {
+  content: "\f00c";
+}
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-navicon:before {
+  content: "\f0c9";
+}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+.icon-angle-double-left:before {
+  content: "\f100";
+}
+.icon-angle-double-right:before {
+  content: "\f101";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-up:before {
+  content: "\f106";
+}
+.icon-html5:before {
+  content: "\f13b";
+}
+.icon-css3:before {
+  content: "\f13c";
+}
+.icon-vk:before {
+  content: "\f189";
+}
+.icon-whatsapp:before {
+  content: "\f232";
+}
+.icon-vk2:before {
+  content: "\ea98";
+}
